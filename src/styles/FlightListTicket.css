@@ -1,0 +1,110 @@
+.header-flightList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.FlightListTicket {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 30px;
+}
+.ticketComponent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 10px;
+  padding: 24px 16px;
+
+  width: 730px;
+  height: 286.5px;
+
+  /* Neutrals */
+
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+}
+.ticketComponent-logo {
+  width: 160px;
+  height: 110.81px;
+  object-fit: contain;
+}
+.ticket-detail {
+  width: 100%;
+  padding: 0px 24px;
+}
+.ticket-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ticket-detail-header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 6px;
+}
+.ticket-detail-header-rating {
+  width: 40px;
+  height: 32px;
+
+  /* Mint Green */
+
+  border: 1px solid #8dd3bb;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ticket-detail-main {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 10px;
+  margin: 20px 0px;
+}
+.ticket-detail-main-line {
+  width: 100%;
+  height: 0.5px;
+  background: #112211;
+  opacity: 0.25;
+  margin: 30px 0px;
+}
+.ticket-detail-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+
+  /* Mint Green */
+
+  border: 1px solid #8dd3bb;
+  border-radius: 4px;
+}
+.deal {
+  width: 450px;
+  height: 48px;
+
+  /* Mint Green */
+
+  background: #8dd3bb;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart:hover {
+  cursor: pointer;
+}
+.deal:hover {
+  cursor: pointer;
+}

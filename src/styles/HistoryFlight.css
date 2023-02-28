@@ -1,0 +1,101 @@
+.HistoryFlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  font-family: "Montserrat";
+}
+.HistoryFlight-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 24px;
+
+  width: 100%;
+  height: 144px;
+
+  /* Neutrals */
+
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+}
+.HistoryFlight-item-detail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 40px;
+}
+.HistoryFlight-item-detail-logo {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+
+  /* Mint Green */
+
+  border: 0.5px solid #8dd3bb;
+  border-radius: 8px;
+  object-fit: contain;
+}
+.HistoryFlight-item-detail-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+.HistoryFlight-item-detail-line {
+  width: 0px;
+  height: 48px;
+
+  border: 1px solid #d7e2ee;
+}
+.HistoryFlight-item-detail-plane {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 6px;
+  column-gap: 40px;
+  height: 100px;
+}
+.detail-plane {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 8px;
+}
+.HistoryFlight-item-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+.button-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 152px;
+  height: 48px;
+
+  /* Mint Green */
+
+  background: #8dd3bb;
+  border-radius: 4px;
+}
+.button-download:hover {
+  cursor: pointer;
+}
+.button-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+
+  /* Mint Green */
+
+  border: 1px solid #8dd3bb;
+  border-radius: 4px;
+}
+.button-next:hover {
+  cursor: pointer;
+}

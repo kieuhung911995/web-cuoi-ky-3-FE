@@ -1,0 +1,59 @@
+/* Auto layout */
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 21px 104px;
+  /* Neutrals */
+
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.flight-stay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.login-signUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.findFlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.findStay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 48px;
+  color: white;
+  background: #112211;
+  border-radius: 8px;
+}
+.signUp:hover {
+  cursor: pointer;
+}
+.golobe-logo {
+  width: 200px;
+}

@@ -1,0 +1,36 @@
+.FlightSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+
+  height: 80px;
+
+  /* Neutrals */
+
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  font-family: "Montserrat";
+}
+.item-line {
+  width: "0.5px";
+  background: "#112211";
+  opacity: "0.25";
+  height: 40px;
+}
+.FlightSort-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.h4 {
+  margin: 0;
+}
+.FlightSort-item-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}

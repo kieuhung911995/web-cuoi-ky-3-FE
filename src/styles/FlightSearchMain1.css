@@ -1,0 +1,47 @@
+.FlightSearchMain1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding: 0 104px;
+}
+.FlightSearchMain1-component {
+  display: flex;
+  justify-content: center;
+}
+.img-main1 {
+  width: 270px;
+}
+.position-main1 {
+  position: absolute;
+  width: 230px;
+  top: 435px;
+}
+.text-main1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  line-height: 10px;
+}
+.price-main1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.book-flight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+
+  width: 200px;
+  height: 30px;
+
+  /* Mint Green */
+
+  background: #8dd3bb;
+  border-radius: 4px;
+}
+.book-flight:hover {
+  cursor: pointer;
+}

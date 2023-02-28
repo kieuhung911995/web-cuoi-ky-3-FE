@@ -1,0 +1,32 @@
+.FlightSearch {
+  background-color: #fafbfc;
+}
+.banner {
+  width: 100%;
+  object-fit: cover;
+}
+
+.font-family {
+  font-family: "Montserrat";
+  font-style: normal;
+  margin-top: 70px;
+  padding: 0 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-seeAll {
+  width: 80px;
+  height: 40px;
+
+  /* Mint Green */
+
+  border: 1px solid #8dd3bb;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-seeAll:hover {
+  cursor: pointer;
+}

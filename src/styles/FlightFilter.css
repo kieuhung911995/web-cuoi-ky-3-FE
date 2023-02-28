@@ -1,0 +1,41 @@
+.FlightFilter {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+.line {
+  height: 0.5px;
+  background: #112211;
+  opacity: 0.25;
+  margin-top: 30px;
+}
+.rating-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 16px;
+  height: 32px;
+}
+.rating-block-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 32px;
+
+  /* Mint Green */
+
+  border: 1px solid #8dd3bb;
+  border-radius: 4px;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.checkbox-item {
+  height: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 8px;
+}
